@@ -12,4 +12,45 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
+    background-color: var(--light-blue);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: var(--white);
+    padding: 1rem 0rem;
+}
+
+figure {
+    border-radius: 1rem;
+    background-color: var(--white);
+}
+
+figure > img {
+    height: 20rem;
+    width: auto;
+    border-radius: 1rem;
+}
+
+section > h2 {
+    font-weight: 700;
+    color: var(--steel-blue);
+    background-color: var(--white);
+}
+
+h2 + h5 {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--gray-blue);
+    background-color: var(--white);
 }
