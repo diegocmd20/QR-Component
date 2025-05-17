@@ -4,7 +4,9 @@
 *::before,
 *::after,
 html,
-body {
+body,
+section,
+figure {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -35,12 +37,7 @@ article {
   background-color: var(--white);
 }
 
-figure {
-  border-radius: 1rem;
-  background-color: var(--white);
-}
-
-figure > img {
+article > img {
   height: 20rem;
   width: auto;
   border-radius: 1rem;
@@ -52,9 +49,10 @@ article > h2 {
   background-color: var(--white);
 }
 
-h2 + h5 {
+article > h5 {
   font-size: 15px;
   font-weight: 400;
   color: var(--gray-blue);
   background-color: var(--white);
+  border-radius: 1rem;
 }
