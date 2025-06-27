@@ -35,24 +35,34 @@ article {
   align-items: center;
   border-radius: 1rem;
   background-color: var(--white);
+  padding: 1rem;
+  width: 20rem;
+  height: auto;
 }
 
 article > img {
-  height: 20rem;
+  height: 18rem;
   width: auto;
   border-radius: 1rem;
 }
 
-article > h2 {
+.card-info {
+  margin: 0.5rem;
+}
+
+.card-info > h2 {
   font-weight: 700;
   color: var(--steel-blue);
   background-color: var(--white);
+  font-size:20px;
+  text-align: center;
+  padding: 1rem 0rem;
 }
 
-article > h5 {
+.card-info > h5 {
   font-size: 15px;
   font-weight: 400;
   color: var(--gray-blue);
   background-color: var(--white);
-  border-radius: 1rem;
+  text-align: center;
 }
